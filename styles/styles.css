@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(205, 208, 200);
+    background-color: #85dcb9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -49,6 +49,7 @@ a:hover{
     color: #C38D9E;
     border: 5px solid #41b3a3 ;
     border-radius: 15%;
+    
 }
 
 section {
@@ -60,7 +61,30 @@ article{
     flex: 1;
 }
 
+.section_2{
+    box-shadow: 5px 0px 25px #e27d60;
+    margin: 15px;
+    padding: 10px;
+    background-color: #41b3a3;
+    color:whitesmoke
+}
 
+form > div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input:hover{
+    border: 2px solid #e27d60;
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: #e27d60;
+
+}
+
+/* foot styling */
 footer{
     display: flex;
 }
@@ -72,4 +96,9 @@ footer div{
 
 .footer-logo{
     height: 200px
+}
+
+.footer-logo:hover{
+    transform: rotateY(360deg);
+    transition: 1.5s;
 }

@@ -13,7 +13,7 @@
 
   <body>
     <header>
-      <img class="logo" src="styles/images/Asset 2@3x.png" />
+      <img class="logo" src="styles/images/Asset 1@3x.png" />
     </header>
     <nav>
       <ul>
@@ -26,7 +26,7 @@
     <main>
       <section>
         <article>
-          <h1>Heading 1</h1>
+          <h1>What we offer</h1>
           <p>
             Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden
             design firm that specializes in garden design and creation,
@@ -38,8 +38,8 @@
         </article>
       </section>
       <section>
-        <article>
-          <h2>Heading 2</h2>
+        <article class="section_2">
+          <h2>Services</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
             assumenda voluptatibus et ipsum ducimus vel fugiat aliquam. Veniam
@@ -47,16 +47,25 @@
             molestias voluptates maiores!
           </p>
         </article>
-        <article>
-          <h2>Heading 2</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            assumenda voluptatibus et ipsum ducimus vel fugiat aliquam. Veniam
-            voluptas id minus amet quasi! Perferendis sit iusto asperiores
-            molestias voluptates maiores!
-          </p>
+        <article class="section_2">
+          <h2>Booking</h2>
+          <form>
+            <div>
+              <label for="email_address">Email Address</label>
+              <input type="email" id="email_address" name="email_address" />
+            </div>
+            <div>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="tel" name="tel" />
+            </div>
+            <div>
+              <label for="booking_date">Date of Booking</label>
+              <input type="date" id="booking_date" name="booking_date" />
+            </div>
+            <button type="submit">Book Now</button>
+          </form>
         </article>
-        <article>
+        <article class="section_2">
           <h2 id="'about">About</h2>
           <p>
             Lucky Shrub was started by a husband and wife team, Jason and Maria,
